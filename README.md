@@ -10,10 +10,12 @@
 
 Установлены Docker и Docker Compose на ВМ Debian 
 ![Скриншот шага 1](/images/1.jpg)
+
 docker --version && docker-compose --version
 Результат: Docker версия 26.1.5, Docker Compose версия 2.26.1.
 
 Загружен базовый образ Nginx версии 1.21.1 
 ![Скриншот шага 2](/images/2.jpg)
+
 docker pull nginx:1.21.1
 Результат: Образ успешно загружен (размер: 133 МБ).
