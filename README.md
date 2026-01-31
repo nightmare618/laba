@@ -13,6 +13,7 @@
 ![Скриншот шага 1](/images/1.jpg)
 
 docker --version && docker-compose --version
+
 Результат: Docker версия 26.1.5, Docker Compose версия 2.26.1.
 
 Загружен базовый образ Nginx версии 1.21.1 
