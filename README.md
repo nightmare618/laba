@@ -21,7 +21,7 @@ sudo apt install docker.io docker-compose-plugin -y
 
 4.	Скачан образ nginx:1.21.1:
 docker pull nginx:1.21.1
-![Скриншот шага 2](images/2.png)
+![Скриншот шага 2](images/2.jpg)
 5.	Создан Dockerfile:
 FROM nginx:1.21.1
 COPY index.html /usr/share/nginx/html/index.html
